@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Ember-date-range-component by tavosansal</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Ember-date-range-component</h1>
+        <p>An ember date-range component</p>
+
+        <p class="view"><a href="https://github.com/tavosansal/ember-date-range-component">View the Project on GitHub <small>tavosansal/ember-date-range-component</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/tavosansal/ember-date-range-component/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/tavosansal/ember-date-range-component/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/tavosansal/ember-date-range-component">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h2>
+<a name="date-range-component-documentation" class="anchor" href="#date-range-component-documentation"><span class="octicon octicon-link"></span></a>
+<code>date-range</code> Component Documentation</h2>
+
+<p>An ember date-range component</p>
+
+<p>This component requires <a href="https://github.com/eternicode/bootstrap-datepicker">Bootstrap Datepicker</a>
+and jquery.</p>
+
+<p>The component links two datepicker inputs. When the first datepicker changes,
+the second datepicker will re-adjust to have the minimum start date to be
+the date selected from the first datepicker.</p>
+
+<p>If date selected of the first datepicker is greater than the date selected of the
+second datepicker, the second datepicker will reset it's value. Otherwise it will stay the same.</p>
+
+<h3>
+<a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Usage</h3>
+
+<ul>
+<li>Place the <code>date_range_component.js</code> file from the <em>source/components</em> directory inside of your components folder.</li>
+<li>Place the <code>date-range.hbs</code> file from the <em>source/templates/compoents</em> directory inside your <em>/templates/compoents</em> folder.</li>
+<li>In your ember template:</li>
+</ul><pre><code>{{date-range
+        startDate=startDateValue
+        endDate=endDateValue
+        startLabel="Start Date"
+        endLabel="End Date"
+        separator="To"}}
+</code></pre>
+
+<h2>
+<a name="reference" class="anchor" href="#reference"><span class="octicon octicon-link"></span></a>Reference</h2>
+
+<table>
+<thead><tr>
+<th align="left">Attribute</th>
+<th align="center">Value</th>
+<th align="left">Description</th>
+</tr></thead>
+<tbody>
+<tr>
+<td align="left">startDate</td>
+<td align="center">
+<code>null</code><br><code>string</code>
+</td>
+<td align="left">property that binds to the value of the first datepicker in your controller</td>
+</tr>
+<tr>
+<td align="left">endDate</td>
+<td align="center">
+<code>null</code><br><code>string</code>
+</td>
+<td align="left">property that binds to the value of the second datepicker in your controller</td>
+</tr>
+<tr>
+<td align="left">startLabel</td>
+<td align="center"><code>string</code></td>
+<td align="left">The label for the first datepicker</td>
+</tr>
+<tr>
+<td align="left">endLabel</td>
+<td align="center"><code>string</code></td>
+<td align="left">The label for the second datepicker</td>
+</tr>
+<tr>
+<td align="left">separator</td>
+<td align="center"><code>string</code></td>
+<td align="left">a separator label in-between the two datepickers</td>
+</tr>
+</tbody>
+</table>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/tavosansal">tavosansal</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
