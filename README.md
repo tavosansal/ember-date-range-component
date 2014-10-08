@@ -13,13 +13,17 @@ If date selected of the first datepicker is greater than the date selected of th
 second datepicker, the second datepicker will reset it's value. Otherwise it will stay the same.
 
 ###Usage
+
+ - Place the `date_range_component.js` file from the *source/components* directory inside of your components folder.
+ - Place the `date-range.hbs` file from the *source/templates/compoents* directory inside your */templates/compoents* folder.
+ - In your ember template:
 ```
 {{date-range
-    startDate=startDateValue
-    endDate=endDateValue
-    startLabel="Start Date"
-    endLabel="End Date"
-    separator="To"}}
+        startDate=startDateValue
+        endDate=endDateValue
+        startLabel="Start Date"
+        endLabel="End Date"
+        separator="To"}}
 ```
 
 ## Reference
