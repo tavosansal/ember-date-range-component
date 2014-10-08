@@ -1,5 +1,4 @@
-<code>date-range</code> Component Documentation
-==========================
+##<code>date-range</code> Component Documentation
 
 An ember date-range component
 
