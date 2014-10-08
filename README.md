@@ -30,8 +30,8 @@ second datepicker, the second datepicker will reset it's value. Otherwise it wil
 
 | Attribute | Value | Description |
 | :-------- | :---: | :---------- |
-| startDate | <code>null</code><br/><code>string</code> | property that binds to the value of the first datepicker |
-| endDate |  <code>null</code><br/><code>string</code> | property that binds to the value of the second datepicker |
+| startDate | <code>null</code><br/><code>string</code> | property that binds to the value of the first datepicker in your controller |
+| endDate |  <code>null</code><br/><code>string</code> | property that binds to the value of the second datepicker in your controller |
 | startLabel | <code>string</code> | The label for the first datepicker |
 | endLabel | <code>string</code> | The label for the second datepicker |
 | separator | <code>string</code> | a separator label in-between the two datepickers|
