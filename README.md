@@ -26,6 +26,10 @@ second datepicker, the second datepicker will reset it's value. Otherwise it wil
         separator="To"}}
 ```
 
+### Output
+
+![datepicker](datepicker.png "datepicker")
+
 ## Reference
 
 | Attribute | Value | Description |
